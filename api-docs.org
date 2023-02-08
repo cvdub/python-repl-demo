@@ -1,13 +1,6 @@
-* National Weather Service API
-** Examples of using the API
-The API uses linked data to allow applications to discover content. Similar to a
-web site that provides HTML links to help users navigate to each page, linked
-data helps applications navigate to each endpoint. You may also review the OPEN
-API specification on the "Specification" tab on this page, or directly using the
-specification endpoint (that is also used to create the tab presentation):
-https://api.weather.gov/openapi.json.
+#+TITLE: National Weather Service API
 
-** How do I get the forecast?
+* How do I get the forecast?
 Forecasts are divided into 2.5km grids. Each NWS office is responsible for a
 section of the grid. The API endpoint for the forecast at a specific grid is:
 
